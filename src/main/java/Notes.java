@@ -2,6 +2,8 @@
 class Notes {
 	public static void main(String[] args) {
 
+		System.out.println("Hello() b c d e f g h i j".replaceAll("\\(\\)", ""));
+
 		//constants - variables
 
 		final int MAXIMUM = 20; //final makes this a constant, it cannot be altered in the future
